@@ -45,7 +45,9 @@ $ ./buildrpm.sh
 You'll find the RPM in:
 
 /path/to/daemontools-rpm/../rpmbuild/RPMS/<ARCH>/daemontools-<VER>-<REL>.<DIST>.<ARCH>.rpm
- 
+
+To install it locally:
+
 ```
 $ sudo rpm -ivh /path/to/daemontools-rpm/../rpmbuild/RPMS/<ARCH>/daemontools-<VER>-<REL>.<DIST>.<ARCH>.rpm
 ```
