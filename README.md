@@ -40,7 +40,14 @@ Build/Install rpm
 ```
 $ cd /path/to/daemontools-rpm
 $ ./buildrpm.sh
-$ sudo rpm -ivh /path/to/daemontools-<VER>-<REL>.<DIST>.<ARCH>.rpm
+```
+
+You'll find the RPM in:
+
+/path/to/daemontools-rpm/../rpmbuild/RPMS/<ARCH>/daemontools-<VER>-<REL>.<DIST>.<ARCH>.rpm
+ 
+```
+$ sudo rpm -ivh /path/to/daemontools-rpm/../rpmbuild/RPMS/<ARCH>/daemontools-<VER>-<REL>.<DIST>.<ARCH>.rpm
 ```
 
 Launch
